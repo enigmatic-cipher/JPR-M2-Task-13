@@ -16,7 +16,9 @@ if(ln1==ln2):
 for i in range(0,ln):
   e1 = st1[i]
   e2 = st2[i]
-  if(e1 == e2):
+  if (e2 == " "):
+    total = total + 0
+  elif(e1 == e2):
     total = total + 4
   elif(e1 != e2):
     total = total - 1
